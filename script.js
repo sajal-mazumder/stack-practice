@@ -853,21 +853,47 @@ var a = [2,3, 33, 43, 34, 55, 45, 44, 21, 33];
 
 //  @@@ iteration object properties
 
-var obj = {
-    x: 10, y: 11, z: 12
-}
+// var obj = {
+//     x: 10, y: 11, z: 12
+// }
 // console.log('x' in obj); //  property must write in string formate  // using 'in' operator
 // console.log('p' in obj); //  property must write in string formate 
 
 // using for in loop
 
-for (var i in obj){
-    console.log(i);
-    console.log(obj[i]);
-    console.log(i + ': ' + obj[i]);
-    
-    
+// for (var i in obj){
+//     console.log(i);
+//     console.log(obj[i]);
+//     console.log(i + ': ' + obj[i]);   
+// }
+
+// ### built in methods in object
+
+var obj = {
+    x: 10, y: 11, z: 12
 }
+
+// basic label
+// console.log(Object.keys(obj)); // return only property name
+// console.log(Object.values(obj)); // return only value
+// console.log(Object.entries(obj)); // return two dimentional array that contains property and values. 
+
+// advance label // creating new obj from existing obj
+
+// var obj2 = obj;
+// obj2.x = 56;
+// obj2.y = 65;
+// console.log(obj2);
+// console.log(obj); // here 1st objects values also changes as new object. for this we need new method.
+
+// var obj2 = Object.assign({}, obj);
+// console.log(obj);
+// obj2.x = 45;
+// obj2.y = 80;
+// console.log(obj2); // here only obj2 's value are new and changed as direction.
+
+
+
 
 
 
