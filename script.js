@@ -11,7 +11,7 @@ var f = 50;
 // console.log(c * d); // NaN
 var e ;
 // console.log(e); // undefined
-// console.log(typeof a); //type of variable return
+// console.log(typeof a); //type of variable return number
 
 // console.log( Number(a)); // return the string number as number
 
