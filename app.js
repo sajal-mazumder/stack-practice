@@ -224,45 +224,75 @@
 
 // @@ switch statement
 
-var date = new Date()
-var today = date.getDay()
+// var date = new Date()
+// var today = date.getDay()
 
-switch (today) {
-    case 0:
-        console.log('today is sunday');
-        break;
-    case 1: 
-        console.log('today is monday');
-        break;
-    case 2: 
-        console.log("today is tuesday");
-        break;
-    case 3: 
-        console.log('today is wednesday');
-        break;
-    case 4: 
-        console.log('today is thursday');
-        break;
-    case 5: 
-        console.log('today is friday');
-        break;
-    case 6: 
-        console.log('today is saturday');
-        break;
-    case 7: 
-        console.log('today is none');
-        break
-    default:
-        console.log('nothing found');
+// switch (today) {
+//     case 0:
+//         console.log('today is sunday');
+//         break;
+//     case 1: 
+//         console.log('today is monday');
+//         break;
+//     case 2: 
+//         console.log("today is tuesday");
+//         break;
+//     case 3: 
+//         console.log('today is wednesday');
+//         break;
+//     case 4: 
+//         console.log('today is thursday');
+//         break;
+//     case 5: 
+//         console.log('today is friday');
+//         break;
+//     case 6: 
+//         console.log('today is saturday');
+//         break;
+//     case 7: 
+//         console.log('today is none');
+//         break
+//     default:
+//         console.log('nothing found');
         
-        break;
+//         break;
+// }
+
+
+// @@@ logical operator
+
+var a = 10;
+var b = 11;
+var c = 10;
+var d = 12;
+
+// if (a = c && b > d) {
+//     console.log('the two condition are true');
+// }
+// else{
+//     console.log('at least one condition is false.'); // print this line
+// }
+
+// if (a = c && b < d) {
+//     console.log('two conditions are true'); // print this line.
+// }
+// else{
+//     console.log("at least one condition is false.");
+// }
+
+// if (a <= c && b <=d) {
+//     console.log('two conditions are true');
+// }
+// else{
+//     console.log('at least one condition is false');
+// }
+
+if (a <! c && b <! d ) {
+    console.log("two conditions are true");
 }
-
-
-
-
-
-
+else{
+    console.log('at least one condition is false');
+}
 
 
 
