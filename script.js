@@ -80,7 +80,7 @@ var e ;
 // h = 4.456;
 // console.log(Math.abs(h)); // convert to absolute positive number.
 // console.log(Math.floor(h)); // return number without decimal
-// console.log(Math.ceil(h)); // return number next intiger number . 
+// console.log(Math.ceil(h)); // return number next integer number . 
 // console.log(Math.round(h)); // return round number. if after decimal less then 5 it will return less value. if greater than 5 it will return greater value. 
 
 // console.log(Math.max(300, 200, 109));  // return 300 , maximum number.

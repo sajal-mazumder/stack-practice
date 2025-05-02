@@ -6,8 +6,8 @@
 // console.log(a * b);
 // console.log(a / b);
 // console.log(a - b);
-// console.log(typeof(a)); this two lines return same result. 
-// console.log(typeof a);  this two lines return same result.
+// console.log(typeof(a)); // this two lines return same result. 
+// console.log(typeof a);  // this two lines return same result.
 
  
 
@@ -15,7 +15,7 @@
 
 // var c = '23';
 // var d = '20';
-// console.log(c + d); // output 2320 as string
+// console.log(c + d); // output 2320 as string concate 
 // console.log(c - d); // output 3 as number
 // console.log(c * d); // output 460 as number
 // console.log(c / d); // output 1.15 as number
@@ -23,11 +23,11 @@
 // var c = '20';
 // var d = 'sajal';
 // var e;
-// console.log(c + d); // 20sajal as string result
+// console.log(c + d); // 20sajal as string result concate
 // console.log(c - d); // NaN
 // console.log(c * d); // NaN
 // console.log(c / d); // NaN
-// console.log(e); // undefined
+// console.log(e); // undefined. assigned no value
 // console.log(typeof e); // undefined
 // console.log(typeof c); // string
 // console.log(Number(c)); // return as number color. convert to number.
@@ -48,6 +48,7 @@
 // console.log(d.toString); // type function
 // console.log(toString(d)); // object undefined. 
 // console.log(String(f)); // number convert to string
+
 // console.log(Number(Infinity)); // infinity as number color
 // console.log(String(Infinity)); // infinity as string color
 // console.log(Boolean(Infinity)); // true. as boolean result
@@ -57,7 +58,7 @@
 // var w = true;
 // console.log(w(toString)); //error
 // console.log(string(w));// error
-// console.log(w.toString); //[Function: toString]
+// console.log(w.toString); //[Function: toString] type function
 // console.log(String(w)); // true as string color
 
 // ## octal and hexadecimal number
@@ -67,7 +68,8 @@
 // console.log(hex);
 // console.log(oct);
 
-// increment and decrement 
+// @@ increment and decrement 
+
 // var a = 10;
 // console.log(++a); // add one and than print result =11
 // console.log(a++); // add one and store it
@@ -90,7 +92,7 @@
 // console.log(e == r); // false. value not matched
 // console.log(e === r); // false.value and type not matched.
 // console.log(q != w); // false, value matched so it should be true
-// console.log(q !== w); // true. type not matched.
+// console.log(q !== w); // true. value matched but type not matched.
 // console.log(q > w); // false
 // console.log(q >! w); // true
 // console.log(e < r); // true
@@ -103,8 +105,8 @@
 // console.log(Math.E); // 2.718281828459045
 // console.log(Math.PI); // 3.141592653589793
 
-var a = 234.33;
-var b = -234.22;
+// var a = 234.33;
+// var b = -234.22;
 
 // console.log(Math.abs(b)); // return absolute positive number 
 // console.log(Math.floor(a)); // return integer number without decimal
@@ -125,14 +127,13 @@ var b = -234.22;
 
 // @@@ date function
 
-var date = new Date()
+// var date = new Date()
 // console.log(date); // return current date
 // console.log(date.toDateString); // type function 
 // console.log(date.getDate); // type function 
 // console.log(date.getDay); // type function 
 // console.log(date.getFullYear); // type function 
 // console.log(date.getHours); // type function 
-// console.log(date.getMilliseconds); // type function 
 // console.log(date.getMilliseconds); // type function 
 // console.log(date.getMinutes); // type function 
 // console.log(date.getTime); // type function 
@@ -156,19 +157,106 @@ var date = new Date()
 // console.log(date.getUTCDate()); // every time get result
 // console.log(date.getUTCDay()); // every time get result
 
-console.log(date.getweek());
+// console.log(date.getweek()); // week is not a function. error. 
+
+// @@@ if condition
+
+// var a = 12;
+// var b = 12;
+
+// if (a = b) {
+//     console.log('a' + ' is equal to ' + 'b' ); // print a is equal to b
+// }
+// if (a > b) {
+//     console.log('a ' + ' is greater than ' + 'b');  // no result
+// }
+
+// @@@ even and odd number checking
+
+// if (a % 2 == 0) {
+//     console.log(a +  "is even number");  // condition is true. so output here
+// }
+
+// if (a % 2 == 1) {
+//     console.log(a + ' is odd number');   // no result
+// }
+
+// @@@ else condition
+
+// if (a % 2 == 1) {
+//     console.log(a + ' is odd number'); // no result
+// } 
+// else{
+//     console.log(a + ' is even number'); // output here
+// }
+
+// @@@ else if condition
+
+// var q = 10;
+// var w = 13;
+
+// if (q > w ) {
+//     console.log(q + 'is greater than ' + w);
+// }
+// else if (q < w ){
+//     console.log(q + ' is less than ' + w);
+// }
+// else if (q = w) {
+//     console.log(q + ' is equal to ' + w); // 13 is equal to 13. why happen this? 
+// }
+// else if (q == w) {
+//     console.log(q + 'is equal to ' + w); // when this condition failed  
+// }
+// else {
+//     console.log('q is less than w'); // print this line
+// }
+
+// if (q % 2 == 1) {
+//     console.log(q + ' is a odd number ');
+// }
+// else if (q % 2 == 0) {
+//     console.log(q + ' is an even number'); // print this line
+// }
+// else {
+//     console.log('nothing is correct'); // no need to execute this line.
+// } 
 
 
+// @@ switch statement
 
+var date = new Date()
+var today = date.getDay()
 
-
-
-
-
-
-
-
-
+switch (today) {
+    case 0:
+        console.log('today is sunday');
+        break;
+    case 1: 
+        console.log('today is monday');
+        break;
+    case 2: 
+        console.log("today is tuesday");
+        break;
+    case 3: 
+        console.log('today is wednesday');
+        break;
+    case 4: 
+        console.log('today is thursday');
+        break;
+    case 5: 
+        console.log('today is friday');
+        break;
+    case 6: 
+        console.log('today is saturday');
+        break;
+    case 7: 
+        console.log('today is none');
+        break
+    default:
+        console.log('nothing found');
+        
+        break;
+}
 
 
 
