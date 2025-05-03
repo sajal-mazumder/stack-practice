@@ -261,10 +261,10 @@
 
 // @@@ logical operator
 
-var a = 10;
-var b = 11;
-var c = 10;
-var d = 12;
+// var a = 10;
+// var b = 11;
+// var c = 10;
+// var d = 12;
 
 // if (a = c && b > d) {
 //     console.log('the two condition are true');
@@ -287,13 +287,60 @@ var d = 12;
 //     console.log('at least one condition is false');
 // }
 
-if (a <! c && b <! d ) {
-    console.log("two conditions are true");
-}
-else{
-    console.log('at least one condition is false');
-}
+// if (a <! c && b <! d ) {
+//     console.log("two conditions are true");
+// }
+// else{
+//     console.log('at least one condition is false'); // print this line
+// }
 
+
+// ### ternary operator
+
+var name = '';
+var fullName = '';
+// if (name.length = 1) {
+//     fullName = "sajal"
+// }
+// else {
+//     fullName = name;
+// }
+// console.log(fullName);
+
+// let age = 18;
+// let message = age >= 18 ? "আপনি প্রাপ্তবয়স্ক" : "আপনি এখনও শিশু";
+// console.log(message);
+
+// fullName = name || 'sajal'
+// console.log(fullName);
+
+// var isOK = true;
+// if (isOK) {
+//     console.log("Everything is OK"); 
+// }
+
+// var isOk = false;
+// if (isOk) {
+//     console.log("Everything is OK");  
+// }
+
+// var isOK = true;
+// isOK && console.log('Everything is OK');
+
+// var isOk = false;
+// isOk && console.log('Everything is Ok');
+
+// #### for loop
+
+// for (let index = 0; index < 100; index++) {
+//     // const element = array[index];
+//     console.log(element);
+// }
+
+for (let index = 0; index <= 100; index+= 10) {
+    // const element = array[index];
+    console.log(index);
+}
 
 
 

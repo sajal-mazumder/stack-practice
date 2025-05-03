@@ -96,7 +96,7 @@ var e ;
 
 // #### date function
 
-var date = new Date()
+// var date = new Date()
 // console.log(date); // returns current date time. 
 // console.log(date.toDateString); // type function. 
 // console.log(date.toTimeString); // type function. 
@@ -164,7 +164,7 @@ var date = new Date()
 // }
 
 // else if( b < a){
-//     console.log(a + " is greater than " + a); // a = 10, b = 10, so condition is false. no  output. 
+//     console.log(a + " is greater than " + b); // a = 10, b = 10, so condition is false. no  output. 
 // }
 // else {
 //     console.log('Both are same number. '); // output here. 
@@ -186,7 +186,7 @@ var date = new Date()
 
 // var date = new Date();
 // var today = date.getDay();
-// switch (today) { // when we use a unvalid number like 9 into value then it will show default case. 
+// switch (today) { // when we use a invalid number like 9 into value then it will show default case. 
 //     case 0:
 //         console.log('Today is Sunday');
 //         break;
@@ -277,10 +277,10 @@ let dd = 20;
 
 // %%%% logical and or operator %%%%%%
 
-var name = '';
-var fullName = '';
+// var name = '';
+// var fullName = '';
 
-// if ( name.lenght = 1){
+// if ( name.length = 1){
 //     fullName =  "sajal "
 // } else{
 //     fullName = name  
@@ -297,7 +297,7 @@ var fullName = '';
 
 // var isOK = false;
 // if (isOK) {
-//     console.log('every');  // if condition is false then this line will no print. 
+//     console.log('every');  // if condition is false then this line will not print. 
 // }  // this line can replace with and operator. 
 
 // isOK = true;
